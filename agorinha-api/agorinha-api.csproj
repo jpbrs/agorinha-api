@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>agorinha_api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Swashbuckle.AspNetCore" />
+    <None Remove="Entities\" />
+    <None Remove="UseCases\" />
+    <None Remove="External Interfaces\" />
+    <None Remove="Microsoft.Data.SqlClient" />
+    <None Remove="Dapper" />
+    <None Remove="1 - Entities\DTO\" />
+    <None Remove="1 - Entities\Repository\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+    <PackageReference Include="Dapper" Version="2.0.90" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="1 - Entities\" />
+    <Folder Include="External Interfaces\" />
+    <Folder Include="1 - Entities\DTO\" />
+    <Folder Include="1 - Entities\Repository\" />
+  </ItemGroup>
+</Project>
