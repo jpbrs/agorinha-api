@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Text.RegularExpressions;
 using agorinha_api.Entities;
 using agorinha_api.Entities.Repository;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +31,16 @@ namespace agorinha_api.Controllers
         [HttpPost("Add")]
         public string AddEncontro([FromBody] string data)
         {
-            return _encontrosRepository.AddEncontro(data);
+            Regex rgx = new Regex(@"^([0-2][0-9]|(3)[0-1])(\-)(((0)[0-9])|((1)[0-2]))(\-)\d{4}$");
+            bool match = rgx.IsMatch(data) ? true : false;
+
+            if (match)
+            {
+                return _encontrosRepository.AddEncontro(data);
+            } else
+            {
+                return "Invalid Date";
+            }
         }
 
         [HttpPost("Delete")]
