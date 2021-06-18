@@ -7,6 +7,6 @@ localhost:port_number/swagger
 
 ## Data for POST Add methods
 
-###/Encontros/Add
+### /Encontros/Add
 "dd-mm-yyyy"
 
