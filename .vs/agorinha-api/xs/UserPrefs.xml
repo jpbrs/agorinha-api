@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{4CF32EC1-3239-415F-9071-8857F450B8DC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="agorinha-api/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="agorinha-api/4 - External Interfaces/LivroAtualRepository.cs">
     <Files>
-      <File FileName="agorinha-api/External Interfaces/EncontrosRepository.cs" Line="50" Column="45" />
-      <File FileName="agorinha-api/1 - Entities/EncontrosDTO.cs" Line="6" Column="40" />
-      <File FileName="agorinha-api/3 - Controllers/EncontrosController.cs" Line="42" Column="72" />
-      <File FileName="agorinha-api/Startup.cs" Line="1" Column="1" />
-      <File FileName="agorinha-api/1 - Entities/Repository/IEncontrosRepository.cs" Line="12" Column="38" />
-      <File FileName="agorinha-api/Program.cs" Line="1" Column="1" />
+      <File FileName="agorinha-api/4 - External Interfaces/LivroAtualRepository.cs" Line="11" Column="51" />
+      <File FileName="agorinha-api/3 - Controllers/LivroAtualController.cs" Line="34" Column="1" />
+      <File FileName="agorinha-api/1 - Entities/Repository/ILivroAtualRepository.cs" Line="5" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,7 +15,9 @@
                 <Node name="Repository" expanded="True" />
               </Node>
               <Node name="3 - Controllers" expanded="True" />
-              <Node name="External Interfaces" expanded="True" />
+              <Node name="4 - External Interfaces" expanded="True">
+                <Node name="LivroAtualRepository.cs" selected="True" />
+              </Node>
               <Node name="Properties" expanded="True" />
             </Node>
           </Node>
@@ -30,7 +29,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/joao/Documents/agorinha-api/agorinha-api/4 - External Interfaces/LivroAtualRepository.cs" relfile="agorinha-api/4 - External Interfaces/LivroAtualRepository.cs" line="29" column="1" />
+      <Breakpoint file="/Users/joao/Documents/agorinha-api/agorinha-api/4 - External Interfaces/EncontrosRepository.cs" relfile="agorinha-api/4 - External Interfaces/EncontrosRepository.cs" line="28" column="1" />
+      <Breakpoint file="/Users/joao/Documents/agorinha-api/agorinha-api/4 - External Interfaces/LivroAtualRepository.cs" relfile="agorinha-api/4 - External Interfaces/LivroAtualRepository.cs" line="24" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

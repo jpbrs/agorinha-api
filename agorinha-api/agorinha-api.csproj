@@ -22,7 +22,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="1 - Entities\" />
-    <Folder Include="External Interfaces\" />
+    <Folder Include="4 - External Interfaces\" />
     <Folder Include="1 - Entities\DTO\" />
     <Folder Include="1 - Entities\Repository\" />
   </ItemGroup>

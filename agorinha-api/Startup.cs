@@ -26,6 +26,8 @@ namespace agorinha_api
             services.AddSwaggerGen();
 
             services.AddScoped<IEncontrosRepository, EncontrosRepository>();
+            services.AddScoped<ILivroAtualRepository, LivroAtualRepository>();
+
 
 
         }

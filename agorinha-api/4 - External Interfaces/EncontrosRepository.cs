@@ -1,6 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using agorinha_api.Entities;
 using agorinha_api.Entities.Repository;
 using Dapper;
@@ -26,8 +24,6 @@ namespace agorinha_api.ExternalInterfaces
             {
                 connection.Open();
                 var results = connection.Query<EncontrosDTO>("SELECT * FROM Encontros");
-
-
 
                 return results;
             }
