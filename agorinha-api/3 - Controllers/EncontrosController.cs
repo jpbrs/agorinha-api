@@ -30,5 +30,17 @@ namespace agorinha_api.Controllers
             return _encontrosRepository.GetAllEncontros();
         }
 
+        [HttpPost("Add")]
+        public string AddEncontro([FromBody] string data)
+        {
+            return _encontrosRepository.AddEncontro(data);
+        }
+
+        [HttpPost("Delete")]
+        public string AddEncontro([FromBody] int number)
+        {
+            return _encontrosRepository.DeleteEncontroByNumber(number);
+        }
+
     }
 }

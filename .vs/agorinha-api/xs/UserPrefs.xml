@@ -1,14 +1,12 @@
 ﻿<Properties StartupConfiguration="{4CF32EC1-3239-415F-9071-8857F450B8DC}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="agorinha-api/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="agorinha-api/Program.cs">
     <Files>
-      <File FileName="agorinha-api/Startup.cs" Line="27" Column="1" />
-      <File FileName="agorinha-api/Program.cs" Line="10" Column="1" />
-      <File FileName="agorinha-api/WeatherForecast.cs" />
-      <File FileName="agorinha-api/appsettings.json" Line="4" Column="5" />
-      <File FileName="agorinha-api/External Interfaces/EncontrosRepository.cs" Line="19" Column="10" />
+      <File FileName="agorinha-api/External Interfaces/EncontrosRepository.cs" Line="50" Column="45" />
       <File FileName="agorinha-api/1 - Entities/EncontrosDTO.cs" Line="6" Column="40" />
-      <File FileName="agorinha-api/3 - Controllers/EncontrosController.cs" Line="31" Column="1" />
-      <File FileName="agorinha-api/Properties/launchSettings.json" Line="15" Column="28" />
+      <File FileName="agorinha-api/3 - Controllers/EncontrosController.cs" Line="42" Column="72" />
+      <File FileName="agorinha-api/Startup.cs" Line="1" Column="1" />
+      <File FileName="agorinha-api/1 - Entities/Repository/IEncontrosRepository.cs" Line="12" Column="38" />
+      <File FileName="agorinha-api/Program.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,9 +19,7 @@
               </Node>
               <Node name="3 - Controllers" expanded="True" />
               <Node name="External Interfaces" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -34,9 +30,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/joao/Documents/agorinha-api/agorinha-api/External Interfaces/EncontrosRepository.cs" relfile="agorinha-api/External Interfaces/EncontrosRepository.cs" line="32" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>

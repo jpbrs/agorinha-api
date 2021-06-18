@@ -32,6 +32,35 @@ namespace agorinha_api.ExternalInterfaces
                 return results;
             }
         }
+
+        public string AddEncontro(string data)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+                try
+                {
+                    connection.Query(@"INSERT INTO ENCONTROS VALUES (@Data)", new { Data = data });
+                    return "Insertion Succeeded";
+
+                } catch { return "Insertion Failed"; }
+            }
+        }
+
+        public string DeleteEncontroByNumber(int number)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                connection.Open();
+                try
+                {
+                    connection.Query(@"DELETE FROM ENCONTROS WHERE Numero=@Numero", new { Numero = number });
+                    return "Deletion Succeeded";
+
+                }
+                catch { return "Deletion Failed"; }
+            }
+        }
     }
 
 }
