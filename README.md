@@ -10,8 +10,6 @@ localhost:port_number/swagger
 ### /Encontros/Add
 Data : "dd-mm-yyyy"
 
-### /Encontros/Delete
-Data : Integer Number of Row for Delete
 
 
 
