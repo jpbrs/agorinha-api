@@ -3,7 +3,7 @@
  
 ## Swagger
 
-localhost:<port>/swagger
+localhost:port_number/swagger
 
 ## Data for POST Add methods
 
