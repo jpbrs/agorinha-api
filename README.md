@@ -29,6 +29,16 @@ Data : { \
   "sinopse": "string" \
 }
 
+### /Sugestao/Add
+Data : { \
+  "name": "string", \
+  "autor": "string", \
+  "ano": 0, \
+  "genero": "string", \
+  "sinopse": "string" \
+}
+
+
 
 
 
